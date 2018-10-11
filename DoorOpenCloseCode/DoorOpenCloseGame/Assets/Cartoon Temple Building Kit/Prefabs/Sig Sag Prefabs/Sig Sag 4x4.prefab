@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000010969791840}
   - component: {fileID: 33000011911756230}
   - component: {fileID: 23000013505097220}
+  - component: {fileID: 65428991982908368}
   m_Layer: 0
   m_Name: Sig Sag 4x4
   m_TagString: Untagged
@@ -34,13 +35,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010933388776}
-  m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.033175796, y: 0.3324637, z: 0.11713839, w: 0.93522507}
+  m_LocalPosition: {x: -30.2, y: -2.44, z: 18.6}
+  m_LocalScale: {x: 0.7700001, y: 0.77, z: 0.77}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.897, y: 39.294003, z: 13.654}
 --- !u!23 &23000013505097220
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010933388776}
   m_Mesh: {fileID: 4300000, guid: 572f2b9ea7750114bb0877da2d4c1b84, type: 3}
+--- !u!65 &65428991982908368
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010933388776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.999999, y: 8.000008, z: 2.000031}
+  m_Center: {x: 0.00000023841778, y: 3.9999952, z: -1.0000144}

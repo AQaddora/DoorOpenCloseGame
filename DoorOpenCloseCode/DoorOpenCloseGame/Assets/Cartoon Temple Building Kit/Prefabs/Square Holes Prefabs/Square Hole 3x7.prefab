@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000014237157500}
   - component: {fileID: 33000012764764388}
   - component: {fileID: 23000011378333720}
+  - component: {fileID: 65574163632399966}
   m_Layer: 0
   m_Name: Square Hole 3x7
   m_TagString: Untagged
@@ -34,8 +35,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012442641416}
-  m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.0000018099951, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22, y: 16, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012442641416}
   m_Mesh: {fileID: 4300000, guid: 60f344983c04bd746bb1986aee49a181, type: 3}
+--- !u!65 &65574163632399966
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012442641416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 14.000008, z: 2.000051}
+  m_Center: {x: -0.00000047683716, y: 6.999999, z: -0.000025331974}

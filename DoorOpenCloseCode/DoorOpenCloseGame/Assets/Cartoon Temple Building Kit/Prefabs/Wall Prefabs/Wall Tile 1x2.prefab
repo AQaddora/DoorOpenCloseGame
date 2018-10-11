@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000012209631868}
   - component: {fileID: 33000011150896688}
   - component: {fileID: 23000012290005026}
+  - component: {fileID: 65634452902733108}
   m_Layer: 0
   m_Name: Wall Tile 1x2
   m_TagString: Untagged
@@ -34,13 +35,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012161336184}
-  m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.0000012798616, y: 0.70710576, z: -0.0000012798579, w: 0.70710784}
+  m_LocalPosition: {x: -64, y: 16, z: 28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
 --- !u!23 &23000012290005026
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012161336184}
   m_Mesh: {fileID: 4300000, guid: 66a9d61e4fdf4174b9cae5f2ca8e63f4, type: 3}
+--- !u!65 &65634452902733108
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012161336184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.999999, y: 15.999998, z: 0.000060526567}
+  m_Center: {x: -9.113542e-13, y: 7.999999, z: 0.000025145218}

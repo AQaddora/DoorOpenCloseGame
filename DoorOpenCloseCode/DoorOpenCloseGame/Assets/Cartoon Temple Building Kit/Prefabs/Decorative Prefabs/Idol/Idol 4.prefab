@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000013807740758}
   - component: {fileID: 33000013026913418}
   - component: {fileID: 23000014180401506}
+  - component: {fileID: 65751570211483452}
   m_Layer: 0
   m_Name: Idol 4
   m_TagString: Untagged
@@ -34,9 +35,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010290144974}
-  m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0000018099951, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 13}
+  m_LocalScale: {x: 0.96000004, y: 0.96000004, z: 0.96000004}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -63,7 +64,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 5
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010290144974}
   m_Mesh: {fileID: 4300000, guid: 93b7b76219c31404ea0ccc922f052e7e, type: 3}
+--- !u!65 &65751570211483452
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010290144974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.481326, y: 17.400023, z: 8.4813595}
+  m_Center: {x: 0, y: 8.700007, z: -0.0000035762787}

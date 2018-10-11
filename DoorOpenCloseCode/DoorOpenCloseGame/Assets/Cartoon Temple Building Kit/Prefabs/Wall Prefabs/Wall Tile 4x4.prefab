@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000013680355614}
   - component: {fileID: 33000012155836610}
   - component: {fileID: 23000013749870214}
+  - component: {fileID: 65736752570804896}
   m_Layer: 0
   m_Name: Wall Tile 4x4
   m_TagString: Untagged
@@ -34,8 +35,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013419234888}
-  m_LocalRotation: {x: 0.0000018099951, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.0000018099951, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12, y: 0, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013419234888}
   m_Mesh: {fileID: 4300000, guid: fa8ed8bb037ff5f4f9179db7935acd72, type: 3}
+--- !u!65 &65736752570804896
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013419234888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 31.999996, y: 31.999996, z: 0.00035759626}
+  m_Center: {x: 0, y: 15.999998, z: -0.00017879813}
